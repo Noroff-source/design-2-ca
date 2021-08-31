@@ -1,3 +1,5 @@
-export const Colors = () => {
-    return <h1>COlours</h1>;
+import styles from "./Colors.module.scss";
+
+export const Colors = (): JSX.Element => {
+    return <div className={styles.colors}>Color</div>;
 };

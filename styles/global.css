@@ -1,0 +1,26 @@
+@import "./../node_modules/destyle.css/destyle.css";
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Nunito+Sans&display=swap");
+
+:root {
+    --color-primary: "#c39738";
+    --color-secondary: "#ffb6c1";
+    --color-text: "#505050";
+    --color-light-grey: "999";
+    --color-white: "#fefefe";
+    --font-styled: "Libre Baskerville", serif;
+    --font-body: "Nunito Sans", sans-serif;
+}
+
+section {
+    width: 60vw;
+    margin: auto;
+}
+
+body {
+    color: var(--color-text);
+}
+
+h1 {
+    color: var(--color-primary);
+    font-size: 3rem;
+}

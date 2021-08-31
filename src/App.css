@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
+@import "./../node_modules/destyle.css/destyle.css";
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Nunito+Sans&display=swap");
+
+:root {
+    --color-primary: #c39738;
+    --color-secondary: #ffb6c1;
+    --color-text: #505050;
+    --color-light-grey: #999;
+    --color-white: #fefefe;
+    --font-styled: "Libre Baskerville", serif;
+    --font-body: "Nunito Sans", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+section {
+    width: 60vw;
+    margin: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+    color: var(--color-text);
+    font-family: var(--font-body);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1,
+h2,
+h3 {
+    color: var(--color-primary);
+    font-family: var(--font-styled);
 }
 
-.App-link {
-  color: #61dafb;
+h4,
+h5,
+h6 {
+    color: var(--color-text);
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1 {
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+p {
+    color: var(--color-light-grey);
+    line-height: 2rem;
+    max-width: 70ch;
+    font-size: 1.2rem;
+}
+
+a {
+    color: var(--color-primary);
+    font-style: italic;
+    font-family: var(--font-styled);
+}
+
+a:hover {
+    text-decoration: underline;
 }
