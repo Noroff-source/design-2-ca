@@ -3,6 +3,7 @@ import "./App.css";
 import { Navbar } from "./Components/Navbar";
 import { Colors } from "./Screens/Colors";
 import { Typography } from "./Screens/Typography";
+import { Buttons } from "./Screens/Buttons";
 
 function App() {
     return (
@@ -17,7 +18,9 @@ function App() {
                     <Route path="/typography">
                         <Typography />
                     </Route>
-
+                    <Route path="/buttons">
+                        <Buttons />
+                    </Route>
                     <Route path="/">
                         <h1>home</h1>
                     </Route>

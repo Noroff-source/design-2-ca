@@ -1,0 +1,95 @@
+.buttons {
+    .heading {
+        margin-bottom: 3rem;
+    }
+
+    button {
+        border-radius: 0.5rem;
+    }
+
+    .buttonContainer {
+        margin-bottom: 1rem;
+        span {
+            margin-left: 1rem;
+        }
+    }
+    .bigButton {
+        padding: 1.5rem 3rem;
+        background: #d66d75;
+        background: -webkit-linear-gradient(to right, #e29587, #d66d75);
+        background: linear-gradient(to right, #e29587, #d66d75);
+        font-weight: bold;
+    }
+
+    .bigButtonHover {
+        padding: 1.5rem 3rem;
+        background: #d66d75;
+        background: -webkit-linear-gradient(to left, #e29587, #d66d75);
+        background: linear-gradient(to left, #e29587, #d66d75);
+        font-weight: bold;
+    }
+
+    .bigButtonActive {
+        padding: 1.5rem 3rem;
+        background: #d66d75;
+        font-weight: bold;
+    }
+
+    .bigButtonSecondary {
+        padding: 1.5rem 3rem;
+        font-weight: bold;
+        background: linear-gradient(to right, #6190e8, #a7bfe8);
+    }
+
+    .bigButtonHoverSecondary {
+        padding: 1.5rem 3rem;
+        font-weight: bold;
+        background: linear-gradient(to left, #6190e8, #a7bfe8);
+    }
+
+    .bigButtonActiveSecondary {
+        padding: 1.5rem 3rem;
+        font-weight: bold;
+        background: #6190e8;
+    }
+
+    .smallButton {
+        padding: 1rem 2rem;
+        background: #d66d75;
+        background: -webkit-linear-gradient(to right, #e29587, #d66d75);
+        background: linear-gradient(to right, #e29587, #d66d75);
+        font-weight: bold;
+    }
+
+    .smallButtonHover {
+        padding: 1rem 2rem;
+        background: #d66d75;
+        background: -webkit-linear-gradient(to left, #e29587, #d66d75);
+        background: linear-gradient(to left, #e29587, #d66d75);
+        font-weight: bold;
+    }
+
+    .smallButtonActive {
+        padding: 1rem 2rem;
+        background: #d66d75;
+        font-weight: bold;
+    }
+
+    .smallButtonSecondary {
+        padding: 1rem 2rem;
+        font-weight: bold;
+        background: linear-gradient(to right, #6190e8, #a7bfe8);
+    }
+
+    .smallButtonHoverSecondary {
+        padding: 1rem 2rem;
+        font-weight: bold;
+        background: linear-gradient(to left, #6190e8, #a7bfe8);
+    }
+
+    .smallButtonActiveSecondary {
+        padding: 1rem 2em;
+        font-weight: bold;
+        background: #6190e8;
+    }
+}

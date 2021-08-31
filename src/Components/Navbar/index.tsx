@@ -11,6 +11,9 @@ export const Navbar = () => {
                     <Link to="/typography">Typography</Link>
                 </li>
                 <li>
+                    <Link to="/buttons">Buttons</Link>
+                </li>
+                <li>
                     <Link to="/colors">Colors</Link>
                 </li>
             </ul>
