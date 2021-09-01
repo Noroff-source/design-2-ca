@@ -1,2 +1,59 @@
 .colors {
+    .subheading {
+        margin-top: 3rem;
+    }
+    .contents {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-top: 3rem;
+        ul {
+            li {
+                &:not(:last-of-type) {
+                    margin-bottom: 0.3rem;
+                }
+            }
+        }
+        .colorBox {
+            height: 6rem;
+            width: 30%;
+            border-radius: 0.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1rem;
+        }
+
+        .primary {
+            background-color: var(--color-primary);
+        }
+
+        .secondary {
+            background-color: var(--color-secondary);
+        }
+
+        .white {
+            background-color: var(--color-white);
+            border: 1px solid var(--color-light-grey);
+        }
+
+        .text {
+            background-color: var(--color-text);
+            color: var(--color-white);
+        }
+
+        .lightGrey {
+            background-color: var(--color-light-grey);
+        }
+
+        .gradientOne {
+            background: linear-gradient(to right, #e29587, #d66d75);
+        }
+
+        .gradientTwo {
+            background: linear-gradient(to right, #6190e8, #a7bfe8);
+        }
+    }
 }
