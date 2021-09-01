@@ -16,6 +16,9 @@ export const Navbar = () => {
                 <li>
                     <Link to="/colors">Colors</Link>
                 </li>
+                <li>
+                    <Link to="/iconography">Iconography</Link>
+                </li>
             </ul>
         </nav>
     );

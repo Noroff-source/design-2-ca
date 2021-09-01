@@ -4,6 +4,7 @@ import { Navbar } from "./Components/Navbar";
 import { Colors } from "./Screens/Colors";
 import { Typography } from "./Screens/Typography";
 import { Buttons } from "./Screens/Buttons";
+import { Iconography } from "./Screens/Iconography";
 
 function App() {
     return (
@@ -20,6 +21,9 @@ function App() {
                     </Route>
                     <Route path="/buttons">
                         <Buttons />
+                    </Route>
+                    <Route path="/iconography">
+                        <Iconography />
                     </Route>
                     <Route path="/">
                         <h1>home</h1>
