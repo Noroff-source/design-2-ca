@@ -3,8 +3,30 @@ import styles from "./Personas.module.scss";
 export const Personas = () => {
     return (
         <section className={styles.personas}>
-            <h1 className={styles.heading}>Personas</h1>
+            <h1 className={styles.heading}>The Brand</h1>
+            <p>
+                Trendy House is a interior decor shop specialising in both upcycled vintage furniture with a "shabby
+                chic" feel, and also current furniture made with the look of shabby chic.
+            </p>
+            <p>
+                This means Trendy Room is able to cater to both more expensive vintage furniture, and more reasonable
+                priced for people who just love the shabby look.
+            </p>
+            <div className={`${styles.logoContainer} ${styles.logoContainerLight}`}>
+                <img src="/images/logo-full.png" alt="Logo" />
+                <p>Full Logo. Location: top left of every navigation bar. Width 300px</p>
+            </div>
+            <div className={`${styles.logoContainer} ${styles.logoContainerDark}`}>
+                <img src="/images/logo-full.png" alt="Logo" />
+                <p>Full Logo. Alternative color. Width 300px.</p>
+            </div>
+            <div className={`${styles.iconLogoContainer}`}>
+                <img src="/images/icon-logo.png" alt="" />
+                <p>Icon logo for smaller spaces and favicon. Height: 100px, 16px for favicon</p>
+            </div>
+
             <div className={styles.contents}>
+                <h2>Personas</h2>
                 <div className={styles.personaContainer}>
                     <div className={styles.avatar}>
                         <img src="https://randomuser.me/api/portraits/women/58.jpg" alt="" />

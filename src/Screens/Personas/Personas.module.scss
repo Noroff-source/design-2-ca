@@ -2,6 +2,28 @@
     .heading {
         margin-bottom: 3rem;
     }
+
+    .logoContainer {
+        img {
+            width: 300px;
+        }
+        margin-bottom: 2rem;
+    }
+
+    .iconLogoContainer {
+        margin-bottom: 2rem;
+
+        img {
+            height: 100px;
+        }
+    }
+
+    .logoContainerDark {
+        background-color: var(--color-text);
+        p {
+            color: var(--color-white);
+        }
+    }
     .contents {
         .personaContainer {
             display: flex;

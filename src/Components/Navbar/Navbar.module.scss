@@ -1,0 +1,22 @@
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    padding: 2rem 1rem;
+
+    ul {
+        display: flex;
+
+        li {
+            a {
+                color: var(--color-text);
+                font-style: normal;
+                font-family: var(--font-body);
+                text-transform: uppercase;
+            }
+
+            &:not(:last-of-type) {
+                margin-right: 1rem;
+            }
+        }
+    }
+}

@@ -1,23 +1,39 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import styles from "./Navbar.module.scss";
 
 export const Navbar = () => {
     return (
-        <nav>
+        <nav className={styles.navbar}>
             <ul>
                 <li>
-                    <Link to="/personas">Personas</Link>
+                    <NavLink to="/" activeStyle={{ fontWeight: "bold" }} exact>
+                        The Brand
+                    </NavLink>
                 </li>
                 <li>
-                    <Link to="/typography">Typography</Link>
+                    <NavLink to="/typography" activeStyle={{ fontWeight: "bold" }}>
+                        Typography
+                    </NavLink>
                 </li>
                 <li>
-                    <Link to="/buttons">Buttons</Link>
+                    <NavLink to="/buttons" activeStyle={{ fontWeight: "bold" }}>
+                        Buttons
+                    </NavLink>
                 </li>
                 <li>
-                    <Link to="/colors">Colors</Link>
+                    <NavLink to="/colors" activeStyle={{ fontWeight: "bold" }}>
+                        Colors
+                    </NavLink>
                 </li>
                 <li>
-                    <Link to="/iconography">Iconography</Link>
+                    <NavLink to="/iconography" activeStyle={{ fontWeight: "bold" }}>
+                        Iconography
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink to="/images" activeStyle={{ fontWeight: "bold" }}>
+                        Images
+                    </NavLink>
                 </li>
             </ul>
         </nav>

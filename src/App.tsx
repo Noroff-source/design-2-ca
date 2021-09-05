@@ -6,6 +6,7 @@ import { Colors } from "./Screens/Colors";
 import { Typography } from "./Screens/Typography";
 import { Buttons } from "./Screens/Buttons";
 import { Iconography } from "./Screens/Iconography";
+import { Images } from "./Screens/Images";
 
 function App() {
     return (
@@ -13,13 +14,9 @@ function App() {
             <Router>
                 <Navbar />
                 <Switch>
-                    <Route path="/personas">
-                        <Personas />
-                    </Route>
                     <Route path="/colors">
                         <Colors />
                     </Route>
-
                     <Route path="/typography">
                         <Typography />
                     </Route>
@@ -28,6 +25,12 @@ function App() {
                     </Route>
                     <Route path="/iconography">
                         <Iconography />
+                    </Route>
+                    <Route path="/images">
+                        <Images />
+                    </Route>
+                    <Route path="/" exact>
+                        <Personas />
                     </Route>
                 </Switch>
             </Router>
